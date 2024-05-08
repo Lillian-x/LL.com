@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on Lillian Liu</title>
-    <link>https://lillian-x.github.io/LL.com/tags/design/</link>
+    <link>http://localhost:1313/tags/design/</link>
     <description>Recent content in Design on Lillian Liu</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lillian-x.github.io/LL.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Telecon(Tele &#43; Silicon)</title>
-      <link>https://lillian-x.github.io/LL.com/projects/telecon/</link>
+      <link>http://localhost:1313/projects/telecon/</link>
       <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://lillian-x.github.io/LL.com/projects/telecon/</guid>
+      <guid>http://localhost:1313/projects/telecon/</guid>
       <description>Introduction Link to heading This is a team project I collaborated on with artists from the Harvard Graduate School of Design and MIT Media Lab. Our concept, TeleCon (Tele + Silicon), is a pneumatically actuated flexible haptic wearable device. It comprises a soft silicone patch engineered as a self-contained soft-robotic wearable that can be worn anywhere on the user&amp;rsquo;s skin. TeleCon provides tactile stimuli by leveraging kinesthetic cues from force-feedback silicon actuators that push against the user&amp;rsquo;s body.</description>
     </item>
   </channel>
