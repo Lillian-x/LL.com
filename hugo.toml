@@ -1,4 +1,5 @@
-baseURL = "https://lillian-x.github.io/"
+baseURL = "https://lillian-x.github.io/LL.com/"
+canonifyURLs = true
 title = "Lillian Liu"
 theme = "hugo-coder"
 languageCode = "en"

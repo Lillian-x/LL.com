@@ -2,217 +2,217 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/LL.com/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/"
+                href="http://localhost:1313/LL.com/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/LL.com/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>http://localhost:1313/LL.com/posts/my-first-post/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/LL.com/posts/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
+    <loc>http://localhost:1313/LL.com/tags/css/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/demonstra%C3%A7%C3%A3o-do-tema/</loc>
+    <loc>http://localhost:1313/LL.com/series/demonstra%C3%A7%C3%A3o-do-tema/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/demonstra%C3%A7%C3%A3o-do-tema/</loc>
+    <loc>http://localhost:1313/LL.com/categories/demonstra%C3%A7%C3%A3o-do-tema/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/markdown-syntax.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/posts/markdown-syntax.pt-br/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>http://localhost:1313/LL.com/tags/html/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>http://localhost:1313/LL.com/tags/hugo/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/lone-coder/</loc>
+    <loc>http://localhost:1313/LL.com/authors/lone-coder/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>http://localhost:1313/LL.com/tags/markdown/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/markdown-syntax/</loc>
+    <loc>http://localhost:1313/LL.com/posts/markdown-syntax/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/programador-solit%C3%A1rio/</loc>
+    <loc>http://localhost:1313/LL.com/authors/programador-solit%C3%A1rio/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:1313/LL.com/series/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/series/"
+                href="http://localhost:1313/LL.com/zh-cn/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="http://localhost:1313/LL.com/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/sintaxe/</loc>
+    <loc>http://localhost:1313/LL.com/categories/sintaxe/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/syntax/</loc>
+    <loc>http://localhost:1313/LL.com/categories/syntax/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/theme-demo/</loc>
+    <loc>http://localhost:1313/LL.com/series/theme-demo/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/theme-demo/</loc>
+    <loc>http://localhost:1313/LL.com/categories/theme-demo/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/rich-content.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/posts/rich-content.pt-br/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/rich-content/</loc>
+    <loc>http://localhost:1313/LL.com/posts/rich-content/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
+    <loc>http://localhost:1313/LL.com/tags/shortcodes/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/more-rich-content.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/posts/more-rich-content.pt-br/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/more-rich-content/</loc>
+    <loc>http://localhost:1313/LL.com/posts/more-rich-content/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/math-typesetting.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/posts/math-typesetting.pt-br/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/math-typesetting/</loc>
+    <loc>http://localhost:1313/LL.com/posts/math-typesetting/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/html-and-css-only-tabs/</loc>
+    <loc>http://localhost:1313/LL.com/posts/html-and-css-only-tabs/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/html-and-css-only-tabs.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/posts/html-and-css-only-tabs.pt-br/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mermaid-support/</loc>
+    <loc>http://localhost:1313/LL.com/posts/mermaid-support/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mermaid-support.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/posts/mermaid-support.pt-br/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emoji/</loc>
+    <loc>http://localhost:1313/LL.com/tags/emoji/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/emoji-support/</loc>
+    <loc>http://localhost:1313/LL.com/posts/emoji-support/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/emoji-support.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/posts/emoji-support.pt-br/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hugo-coder-wiki/</loc>
+    <loc>http://localhost:1313/LL.com/posts/hugo-coder-wiki/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hugo-coder-wiki/</loc>
+    <loc>http://localhost:1313/LL.com/posts/hugo-coder-wiki/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/placeholder-text/</loc>
+    <loc>http://localhost:1313/LL.com/posts/placeholder-text/</loc>
     <lastmod>2023-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/text/</loc>
+    <loc>http://localhost:1313/LL.com/tags/text/</loc>
     <lastmod>2023-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/placeholder-text.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/posts/placeholder-text.pt-br/</loc>
     <lastmod>2023-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://localhost:1313/LL.com/authors/</loc>
     <lastmod>2023-01-05T01:15:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/authors/"
+                href="http://localhost:1313/LL.com/zh-cn/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/authors/"
+                href="http://localhost:1313/LL.com/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/autores/autores-de-hugo/</loc>
+    <loc>http://localhost:1313/LL.com/autores/autores-de-hugo/</loc>
     <lastmod>2023-01-05T01:15:52+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/hugo-authors/</loc>
+    <loc>http://localhost:1313/LL.com/authors/hugo-authors/</loc>
     <lastmod>2023-01-05T01:15:29+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/LL.com/categories/</loc>
     <lastmod>2023-01-04T23:21:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/categories/"
+                href="http://localhost:1313/LL.com/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/LL.com/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categoria/temas/</loc>
+    <loc>http://localhost:1313/LL.com/categoria/temas/</loc>
     <lastmod>2023-01-04T23:21:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categoria/sintaxe/</loc>
+    <loc>http://localhost:1313/LL.com/categoria/sintaxe/</loc>
     <lastmod>2023-01-04T23:21:06+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/shortcodes/_index.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/tags/shortcodes/_index.pt-br/</loc>
     <lastmod>2023-01-04T11:51:36+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/LL.com/tags/</loc>
     <lastmod>2023-01-04T11:51:36+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/tags/"
+                href="http://localhost:1313/LL.com/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/LL.com/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/rmp1/</loc>
+    <loc>http://localhost:1313/LL.com/posts/rmp1/</loc>
     <lastmod>2022-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/design/</loc>
+    <loc>http://localhost:1313/LL.com/tags/design/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/lillian/</loc>
+    <loc>http://localhost:1313/LL.com/authors/lillian/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/project/</loc>
+    <loc>http://localhost:1313/LL.com/categories/project/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/LL.com/projects/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/telecon/</loc>
+    <loc>http://localhost:1313/LL.com/projects/telecon/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/LL.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about.pt-br/</loc>
+    <loc>http://localhost:1313/LL.com/about.pt-br/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/LL.com/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/LL.com/contact/</loc>
   </url>
 </urlset>
