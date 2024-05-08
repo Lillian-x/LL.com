@@ -8,7 +8,7 @@ externalLink = ""
 series = []
 title = 'Telecon(Tele + Silicon)'
 date = 2021-12-14
-draft = true
+draft = false
 +++
 
 
