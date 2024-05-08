@@ -174,7 +174,14 @@
       <link>http://localhost:1313/posts/rmp1/</link>
       <pubDate>Fri, 14 Jan 2022 07:07:07 +0100</pubDate>
       <guid>http://localhost:1313/posts/rmp1/</guid>
-      <description>The Motivational Dimensions of RoboMaster: The STEM Learning Experiences with a Robot Link to heading Introduction Link to heading The pace of innovation is accelerating globally and with it the competition for scientific and technical talent. It has increased attention to effective and inclusive STEM teaching and learning. Researchers and educators have proposed various approaches for engaging students more. One of these approaches is to use robots in introductory programming learning which includes building or using an interactive physical system with a combination of software and hardware (McGill, 2012).</description>
+      <description>Evaluating the Motivational Dimensions of the STEM Learning Experiences with a Robot Link to heading Introduction Link to heading The pace of innovation is accelerating globally and with it the competition for scientific and technical talent. It has increased attention to effective and inclusive STEM teaching and learning. Researchers and educators have proposed various approaches for engaging students more. One of these approaches is to use robots in introductory programming learning which includes building or using an interactive physical system with a combination of software and hardware (McGill, 2012).</description>
+    </item>
+    <item>
+      <title>Telecon(Tele &#43; Silicon)</title>
+      <link>http://localhost:1313/projects/telecon/</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/telecon/</guid>
+      <description>Introduction Link to heading This is a team project I collaborated on with artists from the Harvard Graduate School of Design and MIT Media Lab. Our concept, TeleCon (Tele + Silicon), is a pneumatically actuated flexible haptic wearable device. It comprises a soft silicone patch engineered as a self-contained soft-robotic wearable that can be worn anywhere on the user&amp;rsquo;s skin. TeleCon provides tactile stimuli by leveraging kinesthetic cues from force-feedback silicon actuators that push against the user&amp;rsquo;s body.</description>
     </item>
     <item>
       <title>About</title>
