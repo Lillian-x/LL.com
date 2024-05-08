@@ -15,23 +15,33 @@ draft = false
 
 ## Introduction
 
-The pace of innovation is accelerating globally, increasing the competition for scientific and technical talent. This has heightened attention to effective and inclusive STEM teaching and learning. Researchers and educators have proposed various methods to engage students more effectively, one of which includes using robots in introductory programming. This involves building or using an interactive physical system that combines both software and hardware elements. Physical computing with robots has proven to attract students to STEM and increase their motivation to learn programming and computational skills.
+The pace of innovation is accelerating globally and with it the competition for scientific and technical talent. It has increased attention to effective and inclusive STEM teaching and learning. Researchers and educators have proposed various approaches for engaging students more. One of these approaches is to use robots in introductory programming learning which includes building or using an interactive physical system with a combination of software and hardware (McGill, 2012). In fact, physical computing with robots is a proven concept to attract students to STEM learning and to increase their motivation to learn programming and related computational skills(Janke, E., Brune, P., & Studt, R,2013). Not only in classrooms, it has also been demonstrated that using robots as tools can improve students’ content knowledge in STEM fields and critical thinking skills in an informal learning environment (Barker & Ansorge, 2007, p. 231). RoboMaster S1 (RMS1) is an intelligent educational robot inspired by DJI's annual RoboMaster robotics competition. According to the website, RMS1 aims to let users dive into the world of robotics, programming, AI, math and physics through exciting intelligent features and captivating gameplay("RoboMaster S1 - DJI", 2022). An app that controls the robot supports omnidirectional movement gel bead launching and provides an immersive first-person view driving experience.
 
-The RoboMaster S1 (RMS1), an educational robot inspired by DJI's annual RoboMaster robotics competition, is designed to enhance the learning of robotics, programming, AI, math, and physics through engaging features and gameplay. An application that controls the robot allows for omnidirectional movement, gel bead launching, and provides an immersive first-person view driving experience.
+
+In this post, I analyze the learning experiences in the RoboMaster app, including three main sections: “Solo”, learning through free control of the robot, “Battle”, learning through competition with others, and “Lab”, learning STEM knowledge through tutorials. The motivational dimensions of these experiences encourage players to develop their robot controlling skills, strive for mastery in the "Battle" mode, and continually expand their STEM knowledge. These findings will be shared with the RoboMaster development team to assist them in creating more engaging learning experiences for users of various personalities.
+
+
+{{< youtube 6GpdoJXpo2U >}}
 
 ## Learning Experiences in RoboMaster
 
 ### Solo Mode
 
-Users typically begin exploring the RMS1 in Solo Mode, learning quickly about the robot's components and functionalities. The mode provides a first-person view, mimicking a video game experience, where users can control the robot and utilize its features like shooting tiny gel beads.
+{{< figure src="/images/contents/f1-2.png" title="Components of RoboMaster S1" >}}
+
+Usually, users start exploring the RMS1 from solo mode. This process allows the user to quickly learn about the robot's components and functions. When controlling RMS1, the app defaults to a first-person view of the action, letting users steer the robot just like they were inside it—similar to playing a first-person video game. Users can also fire the tiny gel beads with a tap or switch to an ultra red “laser” shott (a little flash of colored light with a pew-pew sound). Moreover, the camera allows users to film videos and take snapshots. Thanks to computer vision technology, users can even identify a person within the frame and have the RMS1 follow them around.
+
 
 ### Battle Mode
 
-In Battle Mode, users can sync multiple RMS1s to compete against each other, shooting gel beads or laser shots at sensors on other robots. This mode combines the excitement of e-sports with theoretical knowledge learning.
+{{< figure src="/images/contents/f1-3.png" title="Choices in Battle Mode" >}}
+The app also offers access to the Battle mode, in which two or more RMS1s can sync up and shoot gel beads or laser shots at each other’s sensors. RMS1 has a special sensor system that can calculate the attack value based on damage in the physical world and display the health point in real time. This battle mode combines the fun of e-sports and theoretical knowledge learning into one.
+
 
 ### The Lab
+{{< figure src="/images/contents/f1-4.png" title="Screenshot of Lab" >}}
+To leverage RMS1’s capabilities in some AI functions and win the battles, users can click into the Lab section to make the robot with more functions by learning and trying to program. In “DIY programming”, the app supports Scratch and Python programming languages, allowing users to experience math, physics, geometry, and AI technology in a cutting-edge and inspiring way. In the 'Lab' section, there is a 'Road to Mastery' subsection that contains eleven project-based tutorials using  blockly programming language. The app tracks users’ learning progress in those tutorials, and a sidebar shows the percentage of completion for three concept branches: programming, control, and AI.
 
-The Lab section offers advanced functionalities where users can program the robot to perform more complex tasks. It supports both Scratch and Python programming languages, providing a comprehensive STEM learning experience through project-based tutorials.
 
 ## Motivational Aspects
 
