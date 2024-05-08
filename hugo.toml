@@ -1,4 +1,7 @@
 baseURL = "https://lillian-x.github.io/LL.com/"
+relativeURLs = false
+canonifyURLs = false
+uglyURLs = false
 title = "Lillian Liu"
 theme = "hugo-coder"
 languageCode = "en"

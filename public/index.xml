@@ -6,15 +6,8 @@
     <description>Recent content on Lillian Liu</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/LL.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/LL.com/posts/my-first-post/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/LL.com/posts/my-first-post/</guid>
-      <description>Introduction Link to heading This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
-    </item>
     <item>
       <title>Guia de Sintaxe Markdown</title>
       <link>http://localhost:1313/LL.com/posts/markdown-syntax.pt-br/</link>
