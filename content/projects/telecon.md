@@ -24,7 +24,7 @@ By combining cutting-edge soft robotics, haptics, and wearable technology, our i
 The project brings together expertise spanning product design, mechanical engineering, human-computer interaction, and materials science. It exemplifies how collaborations across diverse domains can spark creative innovations at the intersection of multiple disciplines.
 
 ### Ideation
-{{< figure src="/images/contents/p1-1.png" >}}
+{{< figure src="/static/images/contents/p1-1.png" >}}
 We realized that haptics, or say the sensation of touch, has been used in many applications. For entertainment and education.
 The use of haptic devices to produce targeted stimuli have been developed rapidly. 
 We want to use it to advocate the paradigms of tele-presence and tele-communication, 

@@ -250,7 +250,7 @@ An example:
 This is a complete configuration example with some recommended values.
 
 ```toml
-baseurl = "http://www.example.com"
+baseurl = "https://lillian-x.github.io/LL.com/"
 title = "johndoe"
 theme = "hugo-coder"
 languagecode = "en"

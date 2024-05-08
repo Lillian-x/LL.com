@@ -2,221 +2,218 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/LL.com/</loc>
+    <loc>https://lillian-x.github.io/LL.com/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/LL.com/zh-cn/"
+                href="https://lillian-x.github.io/LL.com/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/LL.com/"
+                href="https://lillian-x.github.io/LL.com/"
                 />
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/my-first-post/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/</loc>
     <lastmod>2024-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/</loc>
-    <lastmod>2024-01-14T07:07:07+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/LL.com/tags/css/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/css/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/series/demonstra%C3%A7%C3%A3o-do-tema/</loc>
+    <loc>https://lillian-x.github.io/LL.com/series/demonstra%C3%A7%C3%A3o-do-tema/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/categories/demonstra%C3%A7%C3%A3o-do-tema/</loc>
+    <loc>https://lillian-x.github.io/LL.com/categories/demonstra%C3%A7%C3%A3o-do-tema/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/markdown-syntax.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/markdown-syntax.pt-br/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/tags/html/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/html/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/tags/hugo/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/hugo/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/authors/lone-coder/</loc>
+    <loc>https://lillian-x.github.io/LL.com/authors/lone-coder/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/tags/markdown/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/markdown/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/markdown-syntax/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/markdown-syntax/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/authors/programador-solit%C3%A1rio/</loc>
+    <loc>https://lillian-x.github.io/LL.com/authors/programador-solit%C3%A1rio/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/series/</loc>
+    <loc>https://lillian-x.github.io/LL.com/series/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/LL.com/zh-cn/series/"
+                href="https://lillian-x.github.io/LL.com/zh-cn/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/LL.com/series/"
+                href="https://lillian-x.github.io/LL.com/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/LL.com/categories/sintaxe/</loc>
+    <loc>https://lillian-x.github.io/LL.com/categories/sintaxe/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/categories/syntax/</loc>
+    <loc>https://lillian-x.github.io/LL.com/categories/syntax/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/series/theme-demo/</loc>
+    <loc>https://lillian-x.github.io/LL.com/series/theme-demo/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/categories/theme-demo/</loc>
+    <loc>https://lillian-x.github.io/LL.com/categories/theme-demo/</loc>
     <lastmod>2023-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/rich-content.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/rich-content.pt-br/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/rich-content/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/rich-content/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/tags/shortcodes/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/shortcodes/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/more-rich-content.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/more-rich-content.pt-br/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/more-rich-content/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/more-rich-content/</loc>
     <lastmod>2023-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/math-typesetting.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/math-typesetting.pt-br/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/math-typesetting/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/math-typesetting/</loc>
     <lastmod>2023-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/html-and-css-only-tabs/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/html-and-css-only-tabs/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/html-and-css-only-tabs.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/html-and-css-only-tabs.pt-br/</loc>
     <lastmod>2023-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/mermaid-support/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/mermaid-support/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/mermaid-support.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/mermaid-support.pt-br/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/tags/emoji/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/emoji/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/emoji-support/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/emoji-support/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/emoji-support.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/emoji-support.pt-br/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/hugo-coder-wiki/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/hugo-coder-wiki/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/hugo-coder-wiki/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/hugo-coder-wiki/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/placeholder-text/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/placeholder-text/</loc>
     <lastmod>2023-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/tags/text/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/text/</loc>
     <lastmod>2023-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/placeholder-text.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/placeholder-text.pt-br/</loc>
     <lastmod>2023-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/authors/</loc>
+    <loc>https://lillian-x.github.io/LL.com/authors/</loc>
     <lastmod>2023-01-05T01:15:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/LL.com/zh-cn/authors/"
+                href="https://lillian-x.github.io/LL.com/zh-cn/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/LL.com/authors/"
+                href="https://lillian-x.github.io/LL.com/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/LL.com/autores/autores-de-hugo/</loc>
+    <loc>https://lillian-x.github.io/LL.com/autores/autores-de-hugo/</loc>
     <lastmod>2023-01-05T01:15:52+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/authors/hugo-authors/</loc>
+    <loc>https://lillian-x.github.io/LL.com/authors/hugo-authors/</loc>
     <lastmod>2023-01-05T01:15:29+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/categories/</loc>
+    <loc>https://lillian-x.github.io/LL.com/categories/</loc>
     <lastmod>2023-01-04T23:21:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/LL.com/zh-cn/categories/"
+                href="https://lillian-x.github.io/LL.com/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/LL.com/categories/"
+                href="https://lillian-x.github.io/LL.com/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/LL.com/categoria/temas/</loc>
+    <loc>https://lillian-x.github.io/LL.com/categoria/temas/</loc>
     <lastmod>2023-01-04T23:21:18+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/categoria/sintaxe/</loc>
+    <loc>https://lillian-x.github.io/LL.com/categoria/sintaxe/</loc>
     <lastmod>2023-01-04T23:21:06+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/tags/shortcodes/_index.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/shortcodes/_index.pt-br/</loc>
     <lastmod>2023-01-04T11:51:36+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/tags/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/</loc>
     <lastmod>2023-01-04T11:51:36+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/LL.com/zh-cn/tags/"
+                href="https://lillian-x.github.io/LL.com/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/LL.com/tags/"
+                href="https://lillian-x.github.io/LL.com/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/LL.com/posts/rmp1/</loc>
+    <loc>https://lillian-x.github.io/LL.com/posts/rmp1/</loc>
     <lastmod>2022-01-14T07:07:07+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/tags/design/</loc>
+    <loc>https://lillian-x.github.io/LL.com/tags/design/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/authors/lillian/</loc>
+    <loc>https://lillian-x.github.io/LL.com/authors/lillian/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/categories/project/</loc>
+    <loc>https://lillian-x.github.io/LL.com/categories/project/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/projects/</loc>
+    <loc>https://lillian-x.github.io/LL.com/projects/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/projects/telecon/</loc>
+    <loc>https://lillian-x.github.io/LL.com/projects/telecon/</loc>
     <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/about/</loc>
+    <loc>https://lillian-x.github.io/LL.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/about.pt-br/</loc>
+    <loc>https://lillian-x.github.io/LL.com/about.pt-br/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/LL.com/contact/</loc>
+    <loc>https://lillian-x.github.io/LL.com/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/LL.com/contact/</loc>
+    <loc>https://lillian-x.github.io/LL.com/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/LL.com/projects/</loc>
+    <loc>https://lillian-x.github.io/LL.com/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/LL.com/projects/</loc>
+    <loc>https://lillian-x.github.io/LL.com/projects/</loc>
   </url>
 </urlset>
