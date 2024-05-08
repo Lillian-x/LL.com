@@ -22,7 +22,7 @@ author = "Lillian Liu"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Lillian's personal website"
 keywords = "blog,developer,personal"
-info = ["Learning Experience Designer", "Product Designer"]
+info = ["Learning Experience Designer | Product Designer", "Leveraging technology to create transformative learning experiences"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
@@ -138,11 +138,11 @@ series = "series"
 tag = "tags"
 author = "authors"
 
-[[params.social]]
-name = "Github"
-icon = "fa-brands fa-github fa-2x"
-weight = 1
-url = "https://github.com/Lillian-x"
+#[[params.social]]
+#name = "Github"
+#icon = "fa-brands fa-github fa-2x"
+#weight = 1
+#url = "https://github.com/Lillian-x"
 
 # [[params.social]]
 # name = "Gitlab"
@@ -207,7 +207,7 @@ title = "Lillian Liu"
 
 [languages.zh-cn.params]
 author = "刘文萱"
-info = ["Learning Experience Designer", "Product Designer"]
+info = ["Learning Experience Designer | Product Designer", "Leveraging technology to create engaging and transformative learning experiences"]
 description = "刘文萱的个人网站"
 keywords = "blog,developer,personal"
 
