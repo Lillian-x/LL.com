@@ -3,64 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://example.org/projects/</loc>
     <lastmod>2024-07-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2024-07-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/"
+      href="https://example.org/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ja"
-      href="http://localhost:1313/ja/"
+      href="https://example.org/ja/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="https://example.org/"
     />
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/</loc>
+    <loc>https://example.org/blogs/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/1721502496858-blog1/</loc>
+    <loc>https://example.org/blogs/1721502496858-blog1/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/1721514649064-project3/</loc>
+    <loc>https://example.org/projects/1721514649064-project3/</loc>
     <lastmod>2022-08-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/1721502314664-project2/</loc>
+    <loc>https://example.org/projects/1721502314664-project2/</loc>
     <lastmod>2022-07-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://example.org/about/</loc>
     <lastmod>2022-02-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/1721500556813-project1/</loc>
+    <loc>https://example.org/projects/1721500556813-project1/</loc>
     <lastmod>2022-01-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

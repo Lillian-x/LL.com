@@ -3,23 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/ja/</loc>
+    <loc>https://example.org/ja/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/"
+      href="https://example.org/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="http://localhost:1313/zh-cn/"
+      href="https://example.org/zh-cn/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="ja"
-      href="http://localhost:1313/ja/"
+      href="https://example.org/ja/"
     />
   </url>
 </urlset>

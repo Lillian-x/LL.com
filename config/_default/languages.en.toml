@@ -16,5 +16,5 @@ description = "WL website"
 name = "Wenxuan Liu"
 image = "lwx-clean.jpeg"
 headline = "{{< audio src=\"/audio/wenxuan_liu_phonetics.mp3\" >}}"
-links = [ { email = "lwxlillian@gmail.com" }, { github = "https://github.com/Lillian-x" }, { linkedin = "https://www.linkedin.com/in/wenxuanliu/" } ]
+links = [ { email = "mailto:wenxuan@alumni.harvard.edu" }, { github = "https://github.com/Lillian-x" }, { linkedin = "https://www.linkedin.com/in/wenxuanliu/" } ]
 bio = "Learner | Researcher | Designer"
