@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analytics on LILLIAN LIU</title>
+    <link>http://localhost:1313/tags/data-analytics/</link>
+    <description>Recent content in Data Analytics on LILLIAN LIU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/data-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ISEA Hackweek - Advances AI for Education Analytics</title>
+      <link>http://localhost:1313/blogs/1721764088886-isea-hackweek---advances-ai-for-education-analytics/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/1721764088886-isea-hackweek---advances-ai-for-education-analytics/</guid>
+      <description>Excited to share that I recently completed a transformative Hackweek as part of the ISEA (Innovation Science for Education Analytics) program, which I&amp;rsquo;ve been fortunate to be a part of for the last six months.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blogs/1721764088886-isea-hackweek---advances-ai-for-education-analytics/featured.png" />
+    </item>
+    
+    <item>
+      <title>Learning Analytics to the Rescue? A Personalized Learning Dashboard</title>
+      <link>http://localhost:1313/projects/1721514659526-project4/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1721514659526-project4/</guid>
+      <description>I prototyped an innovative dashboard using R to transform how university teachers approach statistics education.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1721514659526-project4/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
