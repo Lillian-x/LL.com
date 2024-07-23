@@ -1,68 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lillian Liu</title>
-    <link>http://localhost:1313/LL.com/</link>
-    <description>Recent content on Lillian Liu</description>
-    <generator>Hugo</generator>
+    <title>Welcome to my logbook! on LILLIAN LIU</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to my logbook! on LILLIAN LIU</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Jan 2023 01:15:52 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/LL.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Autores de Hugo</title>
-      <link>http://localhost:1313/LL.com/autores/autores-de-hugo/</link>
-      <pubDate>Thu, 05 Jan 2023 01:15:52 +0100</pubDate>
-      <guid>http://localhost:1313/LL.com/autores/autores-de-hugo/</guid>
-      <description></description>
+      <title>Does Student Confidence in STEM Courses Lead to Better Performance?</title>
+      <link>http://localhost:1313/blogs/1721502496858-blog1/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/1721502496858-blog1/</guid>
+      <description>STEM education is crucial, but many students struggle to find a personal connection to science, leading to a lack of motivation in STEM-related studies (Franks and Capraro, 2019).</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blogs/1721502496858-blog1/featured.png" />
     </item>
+    
     <item>
-      <title>temas</title>
-      <link>http://localhost:1313/LL.com/categoria/temas/</link>
-      <pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate>
-      <guid>http://localhost:1313/LL.com/categoria/temas/</guid>
-      <description></description>
+      <title>Does Student Confidence in STEM Courses Lead to Better Performance?</title>
+      <link>http://localhost:1313/projects/1721514649064-project3/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1721514649064-project3/</guid>
+      <description>STEM education is crucial, but many students struggle to find a personal connection to science, leading to a lack of motivation in STEM-related studies (Franks and Capraro, 2019).</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1721514649064-project3/featured.png" />
     </item>
+    
     <item>
-      <title>sintaxe</title>
-      <link>http://localhost:1313/LL.com/categoria/sintaxe/</link>
-      <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
-      <guid>http://localhost:1313/LL.com/categoria/sintaxe/</guid>
-      <description></description>
+      <title>TeleCon, a pneumatically actuated flexible haptic wearable device</title>
+      <link>http://localhost:1313/projects/1721502314664-project2/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1721502314664-project2/</guid>
+      <description>Introduction # This is a team project I collaborated on with artists from the Harvard Graduate School of Design and MIT Media Lab.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1721502314664-project2/featured.gif" />
     </item>
-    <item>
-      <title>Códigos curtos</title>
-      <link>http://localhost:1313/LL.com/tags/shortcodes/_index.pt-br/</link>
-      <pubDate>Wed, 04 Jan 2023 11:51:36 +0100</pubDate>
-      <guid>http://localhost:1313/LL.com/tags/shortcodes/_index.pt-br/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The Motivational Dimensions of RoboMaster</title>
-      <link>http://localhost:1313/LL.com/posts/rmp1/</link>
-      <pubDate>Fri, 14 Jan 2022 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/LL.com/posts/rmp1/</guid>
-      <description>Evaluating the Motivational Dimensions of the STEM Learning Experiences with a Robot Link to heading Introduction Link to heading The pace of innovation is accelerating globally and with it the competition for scientific and technical talent. It has increased attention to effective and inclusive STEM teaching and learning. Researchers and educators have proposed various approaches for engaging students more. One of these approaches is to use robots in introductory programming learning which includes building or using an interactive physical system with a combination of software and hardware (McGill, 2012).</description>
-    </item>
-    <item>
-      <title>Telecon(Tele &#43; Silicon)</title>
-      <link>http://localhost:1313/LL.com/projects/telecon/</link>
-      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/LL.com/projects/telecon/</guid>
-      <description>Introduction Link to heading This is a team project I collaborated on with artists from the Harvard Graduate School of Design and MIT Media Lab. Our concept, TeleCon (Tele + Silicon), is a pneumatically actuated flexible haptic wearable device. It comprises a soft silicone patch engineered as a self-contained soft-robotic wearable that can be worn anywhere on the user&amp;rsquo;s skin. TeleCon provides tactile stimuli by leveraging kinesthetic cues from force-feedback silicon actuators that push against the user&amp;rsquo;s body.</description>
-    </item>
+    
     <item>
       <title>About</title>
-      <link>http://localhost:1313/LL.com/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/LL.com/about/</guid>
-      <description>Hello there! I&amp;rsquo;m thrilled to introduce myself and share a glimpse into my vibrant world. As an innovative and passionate EdTech professional, I&amp;rsquo;m on a mission to revolutionize learning experiences through the power of technology. With a unique blend of academic expertise from Harvard and USC, encompassing education, computer science, and data analytics, I bring a multidisciplinary approach to the field.&#xA;My journey has been fueled by a love for teaching, instructional design, and a belief in the transformative potential of data-driven solutions.</description>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>Learn more about me and why I am starting this blog.</description>
+      
     </item>
+    
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/LL.com/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/LL.com/contact/</guid>
-      <description>wenxuan at usc dot com</description>
+      <title>The Motivational Dimensions of RoboMaster</title>
+      <link>http://localhost:1313/projects/1721500556813-project1/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1721500556813-project1/</guid>
+      <description>Evaluating the Motivational Dimensions of the STEM Learning Experiences with a Robot # In 2018, as the learning experience designer and engineer at DJI, I led the launch of RoboMaster S1(RMS1), a STEM educational robot.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1721500556813-project1/featured.png" />
     </item>
+    
   </channel>
 </rss>

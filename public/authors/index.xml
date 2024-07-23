@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Lillian Liu</title>
-    <link>http://localhost:1313/LL.com/authors/</link>
-    <description>Recent content in Authors on Lillian Liu</description>
-    <generator>Hugo</generator>
+    <title>Authors on LILLIAN LIU</title>
+    <link>http://localhost:1313/authors/</link>
+    <description>Recent content in Authors on LILLIAN LIU</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Jan 2023 01:15:29 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/LL.com/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Authors of Hugo</title>
-      <link>http://localhost:1313/LL.com/authors/hugo-authors/</link>
-      <pubDate>Thu, 05 Jan 2023 01:15:29 +0100</pubDate>
-      <guid>http://localhost:1313/LL.com/authors/hugo-authors/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lillian</title>
-      <link>http://localhost:1313/LL.com/authors/lillian/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/LL.com/authors/lillian/</guid>
-      <description></description>
-    </item>
+    
+    <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,0 +1,19 @@
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 2
+title = "LILLIAN LIU"
+
+
+[params]
+displayName = "简体中文"
+isoCode = "zh-cn"
+rtl = false
+dateFormat = "2006-01-02"
+secondaryLogo = "flower-32x32.png"
+logo = "flower-32x32.png"
+description = "WL website"
+
+[author]
+name = "刘文萱"
+image = "lwx-clean.jpeg"
+links = [ { email = "lwxlillian@gmail.com" }, { github = "https://github.com/Lillian-x" }, { linkedin = "https://www.linkedin.com/in/wenxuanliu/" } ]

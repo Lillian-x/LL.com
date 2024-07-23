@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on LILLIAN LIU</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on LILLIAN LIU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Does Student Confidence in STEM Courses Lead to Better Performance?</title>
+      <link>http://localhost:1313/blogs/1721502496858-blog1/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/1721502496858-blog1/</guid>
+      <description>STEM education is crucial, but many students struggle to find a personal connection to science, leading to a lack of motivation in STEM-related studies (Franks and Capraro, 2019).</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blogs/1721502496858-blog1/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,105 @@
+colorScheme = "marvel"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = false
+enableCodeCopy = false
+disableImageOptimization = false
+disableTextInHeader = false
+defaultBackgroundImage = " "
+defaultFeaturedImage = " "
+highlightCurrentMenuArea = "Enable"
+
+[header]
+layout = "basic"
+
+[footer]
+showMenu = "Enable"
+showCopyright = false
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
+
+[homepage]
+layout = "background"
+showRecent = "Enable"
+showRecentItems = "3"
+showMoreLink = "Enable"
+showMoreLinkDest = "/posts"
+cardView = "Enable"
+cardViewScreenWidth = false
+layoutBackgroundBlur = "Enable"
+homepageImage = "cloud.jpg"
+
+[article]
+showDate = true
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = false
+showHero = "Hide"
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = true
+showTableOfContents = true
+showTaxonomies = false
+showAuthorsBadges = false
+showWordCount = false
+showZenMode = false
+
+[list]
+showHero = true
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = ""
+showSummary = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+orderByWeight = false
+groupByYear = true
+cardView = false
+cardViewScreenWidth = false
+constrainItemsWidth = false
+heroStyle = "basic"
+
+[sitemap]
+excludedKinds = [ "taxonomy", "term" ]
+
+[taxonomy]
+showTermCount = true
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
+
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false
+
+[firebase]
+
+[fathomAnalytics]
+
+[umamiAnalytics]
+
+[buymeacoffee]
+
+[verification]

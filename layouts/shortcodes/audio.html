@@ -1,0 +1,20 @@
+<div class="audio-player">
+  <button onclick="togglePlay()" class="play-button">
+     Pronouce <i class="fas fa-volume-up"></i>
+  </button>
+  <audio id="audio-player">
+    <source src="{{ .Get "src" }}" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+
+<script>
+  function togglePlay() {
+    var audio = document.getElementById('audio-player');
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+</script>

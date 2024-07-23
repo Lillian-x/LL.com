@@ -1,134 +1,45 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
-
+<html lang="{{ with .Site.Params.isoCode | default (.Site.LanguageCode | default " en") }} {{- . -}} {{ end }}" dir="{{ if .Site.Params.rtl | default false -}}
+    rtl
+  {{- else -}}
+    ltr
+  {{- end }}" class="scroll-smooth" data-default-appearance="{{ .Site.Params.defaultAppearance | default " light" }}"
+  data-auto-appearance="{{ .Site.Params.autoSwitchAppearance | default " true" }}">
+{{- partial "head.html" . -}}
 <head>
-  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
-  {{ partial "head.html" . }}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
-{{ $csClass := "colorscheme-light" }}
-{{ if eq .Site.Params.colorScheme "dark" }}
-{{ $csClass = "colorscheme-dark" }}
-{{ else if eq .Site.Params.colorScheme "auto" }}
-{{ $csClass = "colorscheme-auto" }}
-{{ end }}
-
-<body class="preload-transitions {{ $csClass }}{{ if .Site.Params.rtl }} rtl{{ end }}">
-  {{ partial "float" . }}
-  <main class="wrapper">
-    {{ partial "header.html" . }}
-
-    <div class="content">
-      {{ block "content" . }}{{ end }}
-    </div>
-
-    {{ partial "footer.html" . }}
-  </main>
-
-  {{ if .HasShortcode "mermaid" }}
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@9.3.0/dist/mermaid.min.js"
-    integrity="sha256-QdTG1YTLLTwD3b95jLqFxpQX9uYuJMNAtVZgwKX4oYU=" crossorigin="anonymous"></script>
-  <script>
-    mermaid.initialize({ startOnLoad: true });
-  </script>
-  {{ end }}
-
-  {{ if .Site.Params.disableDefaultJsScripts }}
-  {{ if not .Site.Params.hideColorSchemeToggle }}
-  {{ errorf "Invalid configuration. Default JS scripts are disabled, but 'hideColorSchemeToggle' is false." }}
-  {{end}}
-  {{ else if .Site.IsServer }}
-  {{ $script := resources.Get "js/coder.js" }}
-  <script src="{{ $script.RelPermalink }}"></script>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>{{ i18n
+      "nav.skip_to_main" }}</a>
+  </div>
+  {{ $header := print "partials/header/" .Site.Params.header.layout ".html" }}
+  {{ if templates.Exists $header }}
+  {{ partial $header . }}
   {{ else }}
-  {{ $script := resources.Get "js/coder.js" | minify | fingerprint }}
-  <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+  {{ partial "partials/header/basic.html" . }}
   {{ end }}
-
-  {{ range .Site.Params.customJS }}
-  {{ if $.Site.IsServer }}
-  {{ $script := resources.Get . }}
-  <script src="{{ $script.RelPermalink }}"></script>
-  {{ else }}
-  {{ $script := resources.Get . | minify | fingerprint }}
-  <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
-  {{ end }}
-  {{ end }}
-
-  {{ range .Site.Params.customRemoteJS }}
-  {{ if $.Site.IsServer }}
-  {{ $script := resources.GetRemote . }}
-  <script src="{{ $script.RelPermalink }}"></script>
-  {{ else }}
-  {{ $script := resources.GetRemote . | minify | fingerprint }}
-  <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
-  {{ end }}
-  {{ end }}
-
-
-  {{ template "_internal/google_analytics.html" . }}
-
-  {{ if and .Site.Params.fathomAnalytics .Site.Params.fathomAnalytics.siteID }}
-  {{- partial "analytics/fathom" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.plausibleAnalytics .Site.Params.plausibleAnalytics.domain }}
-  {{- partial "analytics/plausible" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.goatCounter .Site.Params.goatCounter.code }}
-  {{- partial "analytics/goatcounter" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.cloudflare .Site.Params.cloudflare.token }}
-  {{- partial "analytics/cloudflare" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.baidu .Site.Params.baidu.token }}
-  {{- partial "analytics/baidu" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.wideAngleAnalytics .Site.Params.wideAngleAnalytics.siteID }}
-  {{- partial "analytics/wideangle" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.matomo .Site.Params.matomo.serverURL }}
-  {{- partial "analytics/matomo" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.googleTagManager .Site.Params.googleTagManager.id }}
-  {{- partial "analytics/googletagmanager" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.applicationInsights .Site.Params.applicationInsights.connectionString }}
-  {{- partial "analytics/applicationinsights" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.microAnalytics .Site.Params.microAnalytics.id }}
-  {{- partial "analytics/microanalyticsio" . -}}
-  {{ end }}
-
-  {{ if .Site.Params.vercelAnalytics}}
-  {{- partial "analytics/vercel" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.yandexMetrika .Site.Params.yandexMetrika.id }}
-  {{- partial "analytics/yandex-metrika" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.umami .Site.Params.umami.siteID }}
-  {{- partial "analytics/umami" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.pirsch .Site.Params.pirsch.code }}
-  {{- partial "analytics/pirsch" . -}}
-  {{ end }}
-
-  {{ if and .Site.Params.clicky .Site.Params.clicky.id }}
-  {{- partial "analytics/clicky" . -}}
-  {{ end }}
-
-  {{- partial "body/extensions" . -}}
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      {{ block "main" . }}{{ end }}
+      {{ if and (.Site.Params.footer.showScrollToTop | default true) (gt .WordCount 1) }}
+      {{- partial "scroll-to-top.html" . -}}
+      {{ end }}
+    </main>
+    {{- partial "footer.html" . -}}
+    {{ if .Site.Params.enableSearch | default false }}
+    {{- partial "search.html" . -}}
+    {{ end }}
+  </div>
 </body>
-
+{{ if .Site.Params.buymeacoffee.globalWidget | default false }}
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+  data-id="{{ .Site.Params.buymeacoffee.identifier }}" data-description="Support me on Buy me a coffee!" data-message="{{ .Site.Params.buymeacoffee.globalWidgetMessage | default "" }}"
+  data-color="{{ .Site.Params.buymeacoffee.globalWidgetColor | default "#FFDD00" }}" data-position="{{ .Site.Params.buymeacoffee.globalWidgetPosition | default "Left" }}" data-x_margin="18" data-y_margin="18"></script>
+{{ end }}
 </html>

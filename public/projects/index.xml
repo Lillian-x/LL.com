@@ -1,19 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Lillian Liu</title>
-    <link>http://localhost:1313/LL.com/projects/</link>
-    <description>Recent content in Projects on Lillian Liu</description>
-    <generator>Hugo</generator>
+    <title>Projects on LILLIAN LIU</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on LILLIAN LIU</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/LL.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Telecon(Tele &#43; Silicon)</title>
-      <link>http://localhost:1313/LL.com/projects/telecon/</link>
-      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/LL.com/projects/telecon/</guid>
-      <description>Introduction Link to heading This is a team project I collaborated on with artists from the Harvard Graduate School of Design and MIT Media Lab. Our concept, TeleCon (Tele + Silicon), is a pneumatically actuated flexible haptic wearable device. It comprises a soft silicone patch engineered as a self-contained soft-robotic wearable that can be worn anywhere on the user&amp;rsquo;s skin. TeleCon provides tactile stimuli by leveraging kinesthetic cues from force-feedback silicon actuators that push against the user&amp;rsquo;s body.</description>
+      <title>Does Student Confidence in STEM Courses Lead to Better Performance?</title>
+      <link>http://localhost:1313/projects/1721514649064-project3/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1721514649064-project3/</guid>
+      <description>STEM education is crucial, but many students struggle to find a personal connection to science, leading to a lack of motivation in STEM-related studies (Franks and Capraro, 2019).</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1721514649064-project3/featured.png" />
     </item>
+    
+    <item>
+      <title>TeleCon, a pneumatically actuated flexible haptic wearable device</title>
+      <link>http://localhost:1313/projects/1721502314664-project2/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1721502314664-project2/</guid>
+      <description>Introduction # This is a team project I collaborated on with artists from the Harvard Graduate School of Design and MIT Media Lab.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1721502314664-project2/featured.gif" />
+    </item>
+    
+    <item>
+      <title>The Motivational Dimensions of RoboMaster</title>
+      <link>http://localhost:1313/projects/1721500556813-project1/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1721500556813-project1/</guid>
+      <description>Evaluating the Motivational Dimensions of the STEM Learning Experiences with a Robot # In 2018, as the learning experience designer and engineer at DJI, I led the launch of RoboMaster S1(RMS1), a STEM educational robot.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1721500556813-project1/featured.png" />
+    </item>
+    
   </channel>
 </rss>
