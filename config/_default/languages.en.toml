@@ -13,8 +13,7 @@ logo = "flower-32x32.png"
 description = "WL website"
 
 [author]
-name = "Wenxuan Liu"
+name = " "
 image = "lwx-clean.jpeg"
-headline = "{{< audio src=\"/audio/wenxuan_liu_phonetics.mp3\" >}}"
 links = [ { email = "mailto:wenxuan@alumni.harvard.edu" }, { github = "https://github.com/Lillian-x" }, { linkedin = "https://www.linkedin.com/in/wenxuanliu/" } ]
-bio = "Learner | Researcher | Designer"
+headline = ""
