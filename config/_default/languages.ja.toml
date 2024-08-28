@@ -14,6 +14,6 @@ title = "LILLIAN LIU"
   description = "WL website"
 
 [author]
-  name = "リリ りゅう"
+  headline = "リリ りゅう"
   image = "lwx-clean.jpeg"
   links = [ { email = "lwxlillian@gmail.com" }, { github = "https://github.com/Lillian-x" }, { linkedin = "https://www.linkedin.com/in/wenxuanliu/" } ]

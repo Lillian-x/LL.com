@@ -4,19 +4,31 @@
 
   <url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blogs/1721764088886-isea-hackweek---advances-ai-for-education-analytics/</loc>
-    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/projects/1724828692317-multimodal-data-analysis/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blogs/1724828730270-textbook-rm/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -36,13 +48,13 @@
     />
   </url>
   <url>
-    <loc>http://localhost:1313/projects/1721514659526-project4/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blogs/1721764088886-isea-hackweek---advances-ai-for-education-analytics/</loc>
+    <lastmod>2024-07-16T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/projects/1721514659526-project4/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -74,6 +86,18 @@
   <url>
     <loc>http://localhost:1313/projects/1721500556813-project1/</loc>
     <lastmod>2022-01-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projects/1724822446642-programming-cards/</loc>
+    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projects/1724828637006-road-to-the-mastery/</loc>
+    <lastmod>2019-10-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

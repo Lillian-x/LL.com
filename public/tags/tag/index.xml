@@ -2,50 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag on LILLIAN LIU</title>
-    <link>http://localhost:52132/tags/tag/</link>
+    <link>http://localhost:1313/tags/tag/</link>
     <description>Recent content in Tag on LILLIAN LIU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    
-    <lastBuildDate>Sat, 20 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:52132/tags/tag/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024  </copyright>
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tag/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>blog1</title>
-      <link>http://localhost:52132/blogs/1721502496858-blog1/</link>
-      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <title>Multimodal Data Analysis</title>
+      <link>http://localhost:1313/projects/1724828692317-multimodal-data-analysis/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:52132/blogs/1721502496858-blog1/</guid>
+      <guid>http://localhost:1313/projects/1724828692317-multimodal-data-analysis/</guid>
       <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52132/blogs/1721502496858-blog1/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1724828692317-multimodal-data-analysis/featured.png" />
     </item>
     
     <item>
-      <title>project2</title>
-      <link>http://localhost:52132/projects/1721502314664-project2/</link>
-      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
+      <title>Textbook-RM</title>
+      <link>http://localhost:1313/blogs/1724828730270-textbook-rm/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:52132/projects/1721502314664-project2/</guid>
+      <guid>http://localhost:1313/blogs/1724828730270-textbook-rm/</guid>
       <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52132/projects/1721502314664-project2/featured.png" />
-    </item>
-    
-    <item>
-      <title>project3</title>
-      <link>http://localhost:52132/projects/1721514649064-project3/</link>
-      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:52132/projects/1721514649064-project3/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52132/projects/1721514649064-project3/featured.png" />
-    </item>
-    
-    <item>
-      <title>project4</title>
-      <link>http://localhost:52132/projects/1721514659526-project4/</link>
-      <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:52132/projects/1721514659526-project4/</guid>
-      <description>an example to get you started</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:52132/projects/1721514659526-project4/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blogs/1724828730270-textbook-rm/featured.png" />
     </item>
     
   </channel>

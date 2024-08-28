@@ -6,7 +6,7 @@
     <description>Recent content in Welcome to my logbook! on LILLIAN LIU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    
+    <copyright>© 2024  </copyright>
     <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ISEA Hackweek - Advances AI for Education Analytics</title>
@@ -76,6 +76,36 @@
       <guid>http://localhost:1313/projects/1721500556813-project1/</guid>
       <description>Evaluating the Motivational Dimensions of the STEM Learning Experiences with a Robot # In 2018, as the learning experience designer and engineer at DJI, I led the launch of RoboMaster S1(RMS1), a STEM educational robot.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1721500556813-project1/featured.png" />
+    </item>
+    
+    <item>
+      <title>Textbook: Robotics and AI handbook</title>
+      <link>http://localhost:1313/blogs/1724828730270-textbook-rm/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blogs/1724828730270-textbook-rm/</guid>
+      <description>作为一名参与编写《机器人与人工智能教程》的教育工作者，我很高兴与大家分享这部教材的诞生过程和它的独特之处。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blogs/1724828730270-textbook-rm/featured.png" />
+    </item>
+    
+    <item>
+      <title>Learn with RoboMaster Programming Challenge Card</title>
+      <link>http://localhost:1313/projects/1724822446642-programming-cards/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1724822446642-programming-cards/</guid>
+      <description>This is an educational tool I designed in line with constructivist learning theory, aiming to stimulate children&amp;rsquo;s creativity and problem-solving abilities.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1724822446642-programming-cards/featured.png" />
+    </item>
+    
+    <item>
+      <title>Road to the Mastery</title>
+      <link>http://localhost:1313/projects/1724828637006-road-to-the-mastery/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/1724828637006-road-to-the-mastery/</guid>
+      <description>RoboMaster S1 supports two powerful programming languages, Scratch and Python.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/1724828637006-road-to-the-mastery/featured.png" />
     </item>
     
   </channel>

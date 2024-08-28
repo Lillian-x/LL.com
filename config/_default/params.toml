@@ -13,16 +13,16 @@ highlightCurrentMenuArea = "Enable"
 layout = "basic"
 
 [footer]
-showMenu = "Disable"
-showCopyright = false
-showThemeAttribution = true
-showAppearanceSwitcher = true
-showScrollToTop = true
+showMenu = "Enable"
+showCopyright = "hide"
+showThemeAttribution = "hide"
+showAppearanceSwitcher = "show"
+showScrollToTop = "show"
 
 [homepage]
 layout = "background"
 showRecent = "Enable"
-showRecentItems = "3"
+showRecentItems = "5"
 showMoreLink = "Enable"
 showMoreLinkDest = "/projects"
 cardView = "Enable"
@@ -39,7 +39,7 @@ showDateUpdated = false
 showAuthor = false
 showHero = "Hide"
 layoutBackgroundBlur = true
-layoutBackgroundHeaderSpace = true
+layoutBackgroundHeaderSpace = "True"
 showBreadcrumbs = false
 showDraftLabel = true
 showEdit = false
@@ -48,12 +48,12 @@ seriesOpened = false
 showHeadingAnchors = true
 showPagination = true
 invertPagination = false
-showReadingTime = true
-showTableOfContents = true
+showReadingTime = false
+showTableOfContents = false
 showTaxonomies = false
 showAuthorsBadges = false
 showWordCount = false
-showZenMode = false
+showZenMode = "Show"
 
 [list]
 showHero = true
@@ -66,9 +66,9 @@ showLikes = false
 showTableOfContents = false
 showCards = false
 orderByWeight = false
-groupByYear = true
+groupByYear = false
 cardView = false
-cardViewScreenWidth = false
+cardViewScreenWidth = "Enable"
 constrainItemsWidth = false
 heroStyle = "basic"
 

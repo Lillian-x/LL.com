@@ -18,11 +18,16 @@ audio {
   display: none; /* Hide the default audio controls */
 }
 
+
 @font-face {
-    font-family: garamond;
-    src: url('/fonts/EBGaramond-VariableFont_wght.ttf');
+    font-family: "Montserrat";
+    src: url('/fonts/Montserrat-VariableFont_wght.ttf');
+}
+html {
+    font-family: "Montserrat", sans-serif;
 }
 
-html {
-    font-family: garamond;
+.video-shortcode {
+  max-width: 100%;
+  height: auto;
 }
