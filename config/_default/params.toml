@@ -22,7 +22,7 @@ showScrollToTop = "show"
 [homepage]
 layout = "background"
 showRecent = "Enable"
-showRecentItems = "5"
+showRecentItems = "9"
 showMoreLink = "Enable"
 showMoreLinkDest = "/projects"
 cardView = "Enable"

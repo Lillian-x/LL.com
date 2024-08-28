@@ -15,11 +15,16 @@ Originally, the target audience for the robot was children in the higher grades 
 It includes a total of 30 fun levels, encouraging players to use code to control the chassis, turret, and other parts of the S1 robot to complete tasks such as "cross-stepping" and "dancing a twist waist dance." The challenge card integrates physical and mathematical knowledge points into the tasks, allowing children to learn abstract concepts through robots. The difficulty of the tasks will gradually increase with the progress of the challenge, adapting to players with different levels of knowledge. We integrate knowledge from physics, mathematics, and other disciplines into programming tasks, helping children to connect abstract concepts with practical applications for interdisciplinary learning.
 
 Each challenge card features an independent task. Users need to follow the clues on the card to determine and fill in the missing code information, enabling the robot to smoothly execute the task and complete the level.
-{{< figure src="p3.png" >}}
-{{< figure src="p4.webp" >}}
-{{< figure src="p5.webp" >}}
-{{< figure src="p6.webp" >}}
-{{< figure src="p7.webp" >}}
+{{< gallery >}}
+  <img src="gallery/p3.png" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/p4.webp" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/p5.webp" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/p6.webp" class="grid-w50 md:grid-w33 xl:grid-w25" />
+  <img src="gallery/p7.webp" class="grid-w50 md:grid-w33 xl:grid-w25" />
+{{< /gallery >}}
+
+
+
 I actually embeded a little hint: The color of each card actually corresponds to the colors displayed by the various programming modules in the RoboMaster app. I believe you will soon discover the secrets to conquering the challenges!
 {{< figure src="p8.png" >}}
 We have organized some offline activities in our stores and clubs across the country, inviting children to come and play.

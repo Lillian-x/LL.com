@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on LILLIAN LIU</title>
+    <link>http://localhost:1313/zh-cn/tags/ai/</link>
+    <description>Recent content in AI on LILLIAN LIU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024  </copyright>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Textbook: Robotics and AI handbook</title>
+      <link>http://localhost:1313/zh-cn/blogs/1724828730270-textbook-rm/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/zh-cn/blogs/1724828730270-textbook-rm/</guid>
+      <description>作为一名参与编写《机器人与人工智能教程》的教育工作者，我很高兴与大家分享这部教材的诞生过程和它的独特之处。</description>
+      
+    </item>
+    
+  </channel>
+</rss>
