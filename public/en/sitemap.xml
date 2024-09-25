@@ -7,12 +7,16 @@
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/blogs/1724864480217-cubyfun/</loc>
-    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/blogs/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/blogs/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/projects/1724828692317-multimodal-data-analysis/</loc>
@@ -94,6 +98,16 @@
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/blogs/1724828730270-textbook-rm/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/blogs/1724828730270-textbook-rm/"
+    />
   </url>
   <url>
     <loc>http://localhost:1313/projects/1724822446642-programming-cards/</loc>

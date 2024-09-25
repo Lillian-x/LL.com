@@ -3,7 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/zh-cn/blogs/1724828730270-textbook-rm/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/blogs/1724828730270-textbook-rm/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/blogs/1724828730270-textbook-rm/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/zh-cn/blogs/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/blogs/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="http://localhost:1313/zh-cn/blogs/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/zh-cn/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
