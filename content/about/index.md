@@ -1,8 +1,8 @@
 ---
 title: "About"
-date: 2022-02-28
+date: 2025-09-02
 description: "Welcome to my blog!"
-summary: "Learn more about me and why I am starting this blog."
+summary: "Learn more about me."
 tags: [ "about"]
 cascade:
   showReadingTime: false
@@ -15,6 +15,7 @@ I also go by **Lillian** or **Lili**.
 
 ---
 
+* 📖 Ph.D. Student at University of California, Irvine
 * 🎓 M.Ed. Learning Design, Innvovation and Technology from Harvard
 * 🎓 M.S. in Computer Science, specialized in Game Development from USC
 * 🎓 B.Sc. in Computer Science from The University of Manchester
