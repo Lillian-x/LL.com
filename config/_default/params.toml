@@ -21,9 +21,9 @@ showScrollToTop = "show"
 
 [homepage]
 layout = "background"
-showRecent = "Enable"
+showRecent = false
 showRecentItems = "9"
-showMoreLink = "Enable"
+showMoreLink = false
 showMoreLinkDest = "/projects"
 cardView = "Enable"
 cardViewScreenWidth = false

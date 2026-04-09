@@ -2,12 +2,6 @@
 none = "none"
 
 [[main]]
-name = "项目"
-pageRef = "projects"
-identifier = "0pXMvkOTV3"
-weight = 9999
-
-[[main]]
 name = "文档"
 pageRef = "blogs"
 identifier = "NjJXiuQbr3"
@@ -15,7 +9,7 @@ weight = 9999
 
 [[main]]
 name = "关于"
-pageRef = "about"
+url = "/about/"
 identifier = "zgDihNbt8k"
 weight = 9999
 

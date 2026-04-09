@@ -2,20 +2,14 @@
 none = "none"
 
 [[main]]
-name = "案"
-pageRef = "projects"
-identifier = "0pXMvkOTV3"
-weight = 9999
-
-[[main]]
 name = "ブログ"
-pageRef = "blogs"
+url = "/blogs/"
 identifier = "NjJXiuQbr3"
 weight = 9999
 
 [[main]]
 name = "紹介"
-pageRef = "about"
+url = "/about/"
 identifier = "zgDihNbt8k"
 weight = 9999
 
