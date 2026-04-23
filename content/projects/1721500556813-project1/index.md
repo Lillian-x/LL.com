@@ -158,7 +158,7 @@ I approached 8 RMS1 users aged 15-36. They have all used RMS1 for more than six 
 - **General**： All eight of them have tried three main functions, but two users were not able to find local players to experience the battle mode. Among them, the most popular function is the Lab. More specifically, the DIY programming. All of them have tried Road to Mastery but none of them completed all the tutorials.
 - **Competence**: All of them agreed that they felt having fun while using the RM. Only one interviewee was not sure about his programming made the robot stronger. He believes that it is his control that improves the robot. 
 - **Autonomy**: All of them thought that they are in control of the learning process. Most of them don't have a preference for choosing tutorials, they follow the original tutorial order. 5 of them watched the video courses and found the contents helpful.
-- **Relatedness**: All of them expressed that they found it easy to access the forum, and they found the link to the weChat group from the forum. They agreed on all the questions in the Relatedness section.
+- **Relatedness**: All of them expressed that they found it easy to access the forum, and they found the link to the WeChat group from the forum. They agreed on all the questions in the Relatedness section.
 
 
 ## Overall Assessment of the Experience
