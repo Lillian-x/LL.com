@@ -25,7 +25,7 @@ Each challenge card features an independent task. Users need to follow the clues
 
 
 
-I actually embeded a little hint: The color of each card actually corresponds to the colors displayed by the various programming modules in the RoboMaster app. I believe you will soon discover the secrets to conquering the challenges!
+I actually embedded a little hint: The color of each card actually corresponds to the colors displayed by the various programming modules in the RoboMaster app. I believe you will soon discover the secrets to conquering the challenges!
 {{< figure src="p8.png" >}}
 We have organized some offline activities in our stores and clubs across the country, inviting children to come and play.
 
@@ -67,4 +67,4 @@ By focusing on these areas, we can refine the programming challenge card to not 
 
 
 >*Personal Notes*
->*I am very grateful for taking charge of this project and working with cross-functional team members. I thank the UI/UX team for making such beatiful designs out of my text descriptions. Also, the marketing team and our local store colleagues, thank you for organizing amazing events.*
+>*I am very grateful for taking charge of this project and working with cross-functional team members. I thank the UI/UX team for making such beautiful designs out of my text descriptions. Also, the marketing team and our local store colleagues, thank you for organizing amazing events.*

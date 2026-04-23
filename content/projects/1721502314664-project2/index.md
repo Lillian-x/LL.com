@@ -18,12 +18,12 @@ The project brings together expertise spanning product design, mechanical engine
 ### Ideation
 {{< figure src="/p1-1.png" >}}
 We realized that haptics, or say the sensation of touch, has been used in many applications. For entertainment and education.
-The use of haptic devices to produce targeted stimuli have been developed rapidly. 
+The use of haptic devices to produce targeted stimuli has been developed rapidly. 
 We want to use it to advocate the paradigms of tele-presence and tele-communication, 
 
 {{< figure src="/images/contents/p1-2.png" >}}
 Based on existing papers, wearable haptic devices have mainly focused on 1) domain-specific design like gloves or rings on a finger that simulate sensations and 2) a Real time haptic feedback. 
-Our goals of this project are **creating a self-contained wearable device that can be where anywhere on the user’s body** and **provide application scenarios and an interface for both real time and Past and present telepresence interaction**. 
+Our goals of this project are **creating a self-contained wearable device that can be worn anywhere on the user’s body** and **provide application scenarios and an interface for both real time and Past and present telepresence interaction**. 
 
 {{< figure src="/p1-3.png" >}}
 
@@ -37,10 +37,10 @@ Visual and auditory information can be easily saved on currently used daily devi
 {{< figure src="/p1-4.png" >}}
 {{< figure src="/p1-5.png" >}}
 {{< figure src="/image11.gif" >}}
-TeleCon allow us to touch specific body part, give a hug remotely, feel the telepresent heart rates to understand emotions.
+TeleCon allows us to touch a specific body part, give a hug remotely, feel the telepresent heart rates to understand emotions.
 {{< figure src="/p1-6.png" >}}
 TeleCon serves as on-body training assistance. Ideally, it will be a whole-body suit that allows your coach to give accurate on-body guidance for your body training remotely. 
-For example your coach want to correct your training movement, the exact area will inflate to inform you of which muscle you should use for certain training.
+For example, your coach wants to correct your training movement, the exact area will inflate to inform you of which muscle you should use for certain training.
 
 ### Past and Present Applications
 {{< figure src="/p1-7.png" >}}

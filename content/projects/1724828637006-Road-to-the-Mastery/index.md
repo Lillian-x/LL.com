@@ -6,7 +6,7 @@ description: "a description"
 tags: ["Learning Design", "Robotics"]
 ---
 
->RoboMaster S1 supports two powerful programming languages, Scratch and Python. The scratch programming consists of 46 programmable blocks, six categories of AI programming modules, and a vast array of programming blocks, coupled with six PWM interfaces. To view details of those blocks, see this [programming guide](https://dl.djicdn.com/downloads/ROBOMASTER_EP/20200515/RoboMaster%20EP%20Programming%20Guide%20V1.0.pdf).
+>RoboMaster S1 supports two powerful programming languages, Scratch and Python. The Scratch programming consists of 46 programmable blocks, six categories of AI programming modules, and a vast array of programming blocks, coupled with six PWM interfaces. To view details of those blocks, see this [programming guide](https://dl.djicdn.com/downloads/ROBOMASTER_EP/20200515/RoboMaster%20EP%20Programming%20Guide%20V1.0.pdf).
 
 I developed the "Road to Mastery" course to guide users through this rich landscape of programming possibilities. Available directly on the App, this course is an invitation to explore, learn, and master the art of coding with the RoboMaster S1. Engage with interactive lessons, practical exercises, and creative challenges that will help users unlock the full potential of their RoboMaster S1 and their own coding skills.
 

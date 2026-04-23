@@ -5,18 +5,18 @@ draft: false
 description: "a description"
 tags: ["example", "tag"]
 ---
-# A fun Multi-Modal Data Analytics Project: Exploring the Emotional Bond Between Humans and Dogs During Separataion
+# A fun Multi-Modal Data Analytics Project: Exploring the Emotional Bond Between Humans and Dogs During Separation
 
 Are you a dog lover who's ever experienced separation anxiety from your furry friend? You're not alone! Our study delves into the emotional attachment between humans and dogs, using cutting-edge multi-modal data analytics technology.
 
-We were interested about the relationship between people’s emotional states and electrothermal activity with how readily accessible they are from their pets when talking about them? How does looking at a picture of their dog affect, if at all, those variables? 
+We were interested in the relationship between people’s emotional states and electrothermal activity with how readily accessible they are from their pets when talking about them? How does looking at a picture of their dog affect, if at all, those variables? 
 
 **Hypothesis**: Individuals living away from their dogs will express stronger and more negative (sad) emotions as well as demonstrate higher levels of electrothermal activity when recalling and telling a story about their dog.
 
 
 ## The Experiment
 {{< figure src="method.png" >}}
-We recruited 8 participants, half living with their dogs and half away from them. We used storytelling to cue emotional responses, tracking their emotions and electrodermal activity (EDA) in real-time using [Empatica E4](https://e4.empatica.com/), a wristband tha monitors physiological signals. Participants shared stories about their dogs, and we analyzed their emotional transitions using Markov Chains.
+We recruited 8 participants, half living with their dogs and half away from them. We used storytelling to cue emotional responses, tracking their emotions and electrodermal activity (EDA) in real-time using [Empatica E4](https://e4.empatica.com/), a wristband that monitors physiological signals. Participants shared stories about their dogs, and we analyzed their emotional transitions using Markov Chains.
 {{< figure src="e4.png" >}}
 All participants were monitored using **Face.API** and the **Empatica E4** while they went through our timed activity. We utilized a video with instructions and a timer on screen to pace the conversation.
 <img src="mc1.png">

@@ -15,11 +15,11 @@ I also go by **Lillian** or **Lili**.
 
 ---
 
-* 📖 Ph.D. Student at University of California, Irvine
-* 🎓 M.Ed. Learning Design, Innvovation and Technology from Harvard
+* 📖 Ph.D. Student at the University of California, Irvine
+* 🎓 M.Ed. in Learning Design, Innovation and Technology from Harvard
 * 🎓 M.S. in Computer Science, specialized in Game Development from USC
 * 🎓 B.Sc. in Computer Science from The University of Manchester
-* 💼 Work in Edtech industry
+* 💼 Work in the Edtech industry
 * 👩‍🏫 Taught programming, AI and robotics
 
 ![](/schools.jpg)
