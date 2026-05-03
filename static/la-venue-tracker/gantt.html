@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LA Venue Tracker — Gantt View</title>
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  color: #1a1a1a;
+  background: #ffffff;
+}
+
+.app { display: flex; flex-direction: column; min-width: 1100px; }
+
+.header {
+  padding: 14px 20px;
+  border-bottom: 1px solid #e3e3e3;
+  background: linear-gradient(to right, #fafbfc, #f5f7fa);
+}
+.header h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f3b73;
+  margin-bottom: 2px;
+}
+.header .sub {
+  color: #666;
+  font-size: 11.5px;
+}
+.legend {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  font-size: 11px;
+  color: #444;
+}
+.legend-item { display: flex; align-items: center; gap: 5px; }
+.legend-swatch { width: 14px; height: 11px; border-radius: 4px; border: 1px solid rgba(0,0,0,0.08); }
+.legend-diamond { width: 10px; height: 10px; transform: rotate(45deg); margin: 1px; }
+
+.gantt {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  align-items: stretch;
+}
+
+.corner {
+  background: #2c3e50;
+  border-right: 1px solid #1a2530;
+  border-bottom: 2px solid #aab9d0;
+}
+
+.month-axis {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  background: #C5D4E8;
+  border-bottom: 2px solid #aab9d0;
+}
+.month-cell {
+  padding: 10px 4px;
+  border-right: 1px solid rgba(170,185,208,0.6);
+  text-align: center;
+  font-weight: 600;
+  font-size: 11.5px;
+  color: #0f3b73;
+}
+.month-cell:last-child { border-right: none; }
+.month-cell.current { background: #a8c0db; }
+
+.cat-header {
+  background: #2c3e50;
+  color: #fff;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-right: 1px solid #1a2530;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.cat-header-track {
+  background: #2c3e50;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.row {
+  display: contents;
+}
+.lane-label {
+  background: #f4f5f7;
+  padding: 6px 10px 6px 16px;
+  border-right: 1px solid #e3e3e3;
+  border-bottom: 1px solid #ececec;
+  font-size: 12px;
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.lane-label.starred::before {
+  content: '🚩';
+  margin-right: 4px;
+  font-size: 12px;
+}
+.lane-track {
+  position: relative;
+  border-bottom: 1px solid #ececec;
+  background:
+    linear-gradient(to right,
+      transparent 0,
+      transparent calc(100%/12 - 1px),
+      #ececec calc(100%/12 - 1px),
+      #ececec calc(100%/12),
+      transparent calc(100%/12),
+      transparent calc(2*100%/12 - 1px),
+      #ececec calc(2*100%/12 - 1px),
+      #ececec calc(2*100%/12),
+      transparent calc(2*100%/12),
+      transparent calc(3*100%/12 - 1px),
+      #ececec calc(3*100%/12 - 1px),
+      #ececec calc(3*100%/12),
+      transparent calc(3*100%/12),
+      transparent calc(4*100%/12 - 1px),
+      #ececec calc(4*100%/12 - 1px),
+      #ececec calc(4*100%/12),
+      transparent calc(4*100%/12),
+      transparent calc(5*100%/12 - 1px),
+      #ececec calc(5*100%/12 - 1px),
+      #ececec calc(5*100%/12),
+      transparent calc(5*100%/12),
+      transparent calc(6*100%/12 - 1px),
+      #d8d8d8 calc(6*100%/12 - 1px),
+      #d8d8d8 calc(6*100%/12),
+      transparent calc(6*100%/12),
+      transparent calc(7*100%/12 - 1px),
+      #ececec calc(7*100%/12 - 1px),
+      #ececec calc(7*100%/12),
+      transparent calc(7*100%/12),
+      transparent calc(8*100%/12 - 1px),
+      #ececec calc(8*100%/12 - 1px),
+      #ececec calc(8*100%/12),
+      transparent calc(8*100%/12),
+      transparent calc(9*100%/12 - 1px),
+      #ececec calc(9*100%/12 - 1px),
+      #ececec calc(9*100%/12),
+      transparent calc(9*100%/12),
+      transparent calc(10*100%/12 - 1px),
+      #ececec calc(10*100%/12 - 1px),
+      #ececec calc(10*100%/12),
+      transparent calc(10*100%/12),
+      transparent calc(11*100%/12 - 1px),
+      #ececec calc(11*100%/12 - 1px),
+      #ececec calc(11*100%/12)
+    );
+  min-height: 36px;
+}
+.lane-track.tall { min-height: 56px; }
+
+.bar {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 18px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 10px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: opacity .15s, box-shadow .15s, transform .15s;
+  user-select: none;
+}
+.bar:hover { box-shadow: 0 3px 8px rgba(0,0,0,0.18); transform: translateY(-50%) scale(1.005); }
+/* Color palette adapted from Science journal Indian Ocean dengue figure */
+.bar.yellow { background: #f6dbd0; color: #5e1a0e; border: 1px solid #b85441; }   /* Core LA = terracotta red */
+.bar.purple { background: #dce2d8; color: #1a3a25; border: 1px solid #297645; }   /* Learning Sci = forest green */
+.bar.blue   { background: #dee8f2; color: #1a3d52; border: 1px solid #4695be; }   /* Big-tent = ocean blue */
+.bar.teal   { background: repeating-linear-gradient(45deg, #f7ecd7 0 6px, #fdf3df 6px 12px); color: #5a4818; border: 1px solid #d8b03c; }   /* Journals = mustard yellow */
+
+.diamond {
+  position: absolute;
+  top: 50%;
+  width: 11px;
+  height: 11px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  cursor: pointer;
+  z-index: 4;
+  transition: transform .15s;
+}
+.diamond:hover { transform: translate(-50%, -50%) rotate(45deg) scale(1.45); z-index: 6; }
+.diamond.upcoming { background: #E63946; box-shadow: 0 0 0 2px rgba(230,57,70,0.18); }
+.diamond.confirmed { background: #5A1B5C; }
+.diamond.projected { background: #F77F00; opacity: .9; }
+.diamond.past { background: #b5b5b5; opacity: .6; }
+.diamond.big { width: 14px; height: 14px; }
+
+.flag {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 5;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.2));
+}
+.flag.big { font-size: 24px; }
+
+.today-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #E63946;
+  z-index: 8;
+  pointer-events: none;
+}
+.today-line::before {
+  content: '';
+  position: absolute;
+  top: -4px; left: -3px;
+  width: 8px; height: 8px;
+  background: #E63946;
+  border-radius: 50%;
+}
+
+.today-banner {
+  position: absolute;
+  top: 4px;
+  background: #E63946;
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  z-index: 9;
+  pointer-events: none;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 4px rgba(230,57,70,0.35);
+}
+
+.tooltip {
+  position: fixed;
+  background: rgba(20,20,20,0.96);
+  color: #fff;
+  padding: 8px 11px;
+  border-radius: 5px;
+  font-size: 11.5px;
+  pointer-events: none;
+  z-index: 1000;
+  display: none;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.28);
+  max-width: 320px;
+  line-height: 1.45;
+  white-space: pre-line;
+}
+.tooltip.show { display: block; }
+.tooltip .t-date { color: #FFD166; font-weight: 700; display: block; margin-bottom: 2px; }
+.tooltip .t-venue { color: #B3DEED; font-size: 10.5px; margin-top: 3px; display: block; }
+
+.footer {
+  padding: 10px 20px;
+  font-size: 11px;
+  color: #888;
+  border-top: 1px solid #e3e3e3;
+  background: #fafbfc;
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="header">
+    <h1>Learning Analytics Venue Tracker — Rolling 12-Month Gantt</h1>
+    <div class="sub" id="window-sub">Loading…</div>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-swatch" style="background:#f6dbd0;border-color:#b85441"></div>Core LA (LAK / AIED / EDM / L@S)</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:#dce2d8;border-color:#297645"></div>Learning Sciences</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:#dee8f2;border-color:#4695be"></div>Big-tent (HCI / IS / ML)</div>
+      <div class="legend-item"><div class="legend-swatch" style="background:repeating-linear-gradient(45deg,#f7ecd7 0 5px,#fdf3df 5px 10px);border-color:#d8b03c"></div>Journal (rolling)</div>
+      <span style="margin-left:8px"></span>
+      <div class="legend-item"><div class="legend-diamond" style="background:#E63946"></div>Upcoming &le;60d</div>
+      <div class="legend-item"><div class="legend-diamond" style="background:#5A1B5C"></div>Confirmed</div>
+      <div class="legend-item"><div class="legend-diamond" style="background:#F77F00"></div>Projected</div>
+      <div class="legend-item"><div class="legend-diamond" style="background:#b5b5b5"></div>Past</div>
+      <div class="legend-item"><span style="font-size:14px">&#x1F4E2;</span>Conference</div>
+      <div class="legend-item"><span style="font-size:14px">&#x1F6A9;</span>Priority venue (★ replaced)</div>
+    </div>
+  </div>
+
+  <div class="gantt" id="gantt"></div>
+
+  <div class="footer">
+    Last data update: 2026-04-26 (verified against official venue sources) &middot; Hover any diamond / flag / bar for details &middot; Window auto-scrolls to current month each time you open this view &middot; Data source: <code>learning_analytics_venue_tracker.xlsx</code>
+  </div>
+</div>
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const TODAY = new Date();
+TODAY.setHours(0,0,0,0);
+const winStart = new Date(TODAY.getFullYear(), TODAY.getMonth(), 1);
+const winEnd = new Date(TODAY.getFullYear(), TODAY.getMonth() + 12, 1);
+const winSpan = winEnd - winStart;
+
+function pct(d) {
+  const dd = (typeof d === 'string') ? new Date(d + 'T00:00:00') : d;
+  return ((dd - winStart) / winSpan) * 100;
+}
+function inWin(d) {
+  const dd = (typeof d === 'string') ? new Date(d + 'T00:00:00') : d;
+  return dd >= winStart && dd <= winEnd;
+}
+function statusOf(dateStr, projected) {
+  const d = new Date(dateStr + 'T00:00:00');
+  if (projected) return 'projected';
+  if (d < TODAY) return 'past';
+  const days = (d - TODAY) / 86400000;
+  if (days <= 60) return 'upcoming';
+  return 'confirmed';
+}
+function fmtDate(d) {
+  const dd = (typeof d === 'string') ? new Date(d + 'T00:00:00') : d;
+  return dd.toLocaleDateString('en-US', {weekday:'short', year:'numeric', month:'short', day:'numeric'});
+}
+function fmtMo(d) { return d.toLocaleDateString('en-US', {month:'short'}); }
+function fmtMoY(d) { return d.toLocaleDateString('en-US', {month:'short', year:'numeric'}); }
+function daysFromToday(d) {
+  const dd = (typeof d === 'string') ? new Date(d + 'T00:00:00') : d;
+  return Math.round((dd - TODAY) / 86400000);
+}
+
+// ============================================================
+// DATA
+// ============================================================
+const ROWS = [
+  // ---- Core LA ----
+  { cat: 'Core LA', color: 'yellow', name: 'LAK27 (Mar/Apr 2027)',
+    bar: ['2026-09-15', '2027-04-15'],
+    starred: true,
+    ms: [
+      ['2026-09-15', 'Workshop & Tutorial proposals', true],
+      ['2026-10-01', 'Main paper deadline', true],
+      ['2026-11-15', 'Doctoral Consortium', true],
+      ['2026-12-01', 'Workshop papers', true],
+      ['2027-01-15', 'Notifications', true],
+      ['2027-02-05', 'Camera-ready', true],
+      ['2027-03-15', 'LAK27 Conference (host TBA)', true, 'conf']
+    ]},
+  { cat: 'Core LA', color: 'yellow', name: 'AIED 2027 (late Jun 2027)',
+    bar: ['2027-01-25', '2027-04-30'],
+    ms: [
+      ['2027-01-25', 'Abstracts (mandatory)', true],
+      ['2027-02-01', 'Full paper deadline', true],
+      ['2027-02-15', 'PIP submission', true],
+      ['2027-02-26', 'Doctoral Consortium', true],
+      ['2027-03-04', 'Blue Sky', true],
+      ['2027-03-22', 'WideAIED · Notifications', true],
+      ['2027-03-26', 'LBR / Posters', true]
+    ]},
+  { cat: 'Core LA', color: 'yellow', name: 'EDM 2027 (late Jun/Jul 2027)',
+    bar: ['2026-11-01', '2027-04-15'],
+    ms: [
+      ['2026-11-01', 'JEDM Track cut-off 1', true],
+      ['2026-12-01', 'JEDM Track cut-off 2', true],
+      ['2027-01-25', 'JEDM Track cut-off 3', true],
+      ['2027-02-01', 'Abstracts', true],
+      ['2027-02-08', 'Full + Short + Industry', true],
+      ['2027-04-05', 'Posters / Demos', true],
+      ['2027-04-08', 'Doctoral Consortium', true]
+    ]},
+  { cat: 'Core LA', color: 'yellow', name: 'L@S 2027 (Jul 2027)',
+    bar: ['2027-02-08', '2027-04-30'],
+    ms: [
+      ['2027-02-08', 'Abstract', true],
+      ['2027-02-15', 'Full paper / WiP', true]
+    ]},
+
+  // ---- Learning Sciences ----
+  { cat: 'Learning Sci', color: 'purple', name: 'ISLS 2027 (Jun 27-30, 2027)',
+    bar: ['2026-10-15', '2027-02-15'],
+    ms: [
+      ['2026-10-15', 'Main paper (CSCL or ICLS)', true],
+      ['2026-12-04', 'Pre-conference satellites', true],
+      ['2027-02-15', 'Notifications (est.)', true]
+    ]},
+  { cat: 'Learning Sci', color: 'purple', name: 'ITS 2027 (May/Jun 2027)',
+    bar: ['2027-02-15', '2027-04-15'],
+    ms: [
+      ['2027-02-28', 'All categories submission', true],
+      ['2027-03-30', 'Notification (est.)', true]
+    ]},
+  { cat: 'Learning Sci', color: 'purple', name: 'EC-TEL 2026 (Sep 14-18, 2026)',
+    bar: ['2026-04-12', '2026-09-18'],
+    ms: [
+      ['2026-09-14', 'EC-TEL 2026 Conference (Valencia)', false, 'conf']
+    ]},
+  { cat: 'Learning Sci', color: 'purple', name: 'EC-TEL 2027 (Sep 2027)',
+    bar: ['2027-03-15', '2027-04-15'],
+    ms: [
+      ['2027-03-20', 'Abstract', true],
+      ['2027-04-12', 'Full paper', true]
+    ]},
+
+  // ---- Big-tent ----
+  { cat: 'Big-tent', color: 'blue', name: 'HICSS-60 (Jan 5-8, 2027)',
+    starred: true,
+    bar: ['2026-06-15', '2027-01-08'],
+    ms: [
+      ['2026-06-15', 'Paper submission (Big!)'],
+      ['2026-08-17', 'Notification'],
+      ['2026-09-04', 'Conditional revision'],
+      ['2026-09-10', 'Final acceptance notification'],
+      ['2026-09-22', 'Camera-ready'],
+      ['2026-10-01', 'Author registration deadline'],
+      ['2027-01-05', 'HICSS-60 Conference (Big Island)', false, 'conf']
+    ]},
+  { cat: 'Big-tent', color: 'blue', name: 'AERA 2027 (Apr 14-18, 2027 · Toronto)',
+    starred: true,
+    bar: ['2026-05-30', '2027-04-18'],
+    ms: [
+      ['2026-05-30', 'Reviewer signup'],
+      ['2026-07-25', 'Submission deadline (est.)', true],
+      ['2026-10-15', 'Notification', true],
+      ['2027-03-01', 'Presenter registration', true],
+      ['2027-04-14', 'AERA 2027 Conference', false, 'conf']
+    ]},
+  { cat: 'Big-tent', color: 'blue', name: 'CHI 2027 (May 10-14, 2027 · Pittsburgh)',
+    bar: ['2026-09-04', '2027-04-30'],
+    ms: [
+      ['2026-09-04', 'Abstract', true],
+      ['2026-09-11', 'Full submission', true],
+      ['2026-10-15', 'Workshops & Symposia', true],
+      ['2026-11-05', 'R&R notifications', true],
+      ['2026-11-30', 'Doctoral Consortium', true],
+      ['2027-01-15', 'LBW / Demos / alt.chi', true],
+      ['2027-01-25', 'Final notification', true]
+    ]},
+  { cat: 'Big-tent', color: 'blue', name: 'ICLR 2027 (Apr/May 2027)',
+    bar: ['2026-09-13', '2027-01-31'],
+    ms: [
+      ['2026-09-13', 'Submission site opens (est.)', true],
+      ['2026-09-18', 'Abstract (mandatory)', true],
+      ['2026-09-23', 'Full paper', true],
+      ['2027-01-22', 'Final notification (est.)', true]
+    ]},
+
+  // ---- Journals ----
+  { cat: 'Journals', color: 'teal', name: 'JLA — Journal of Learning Analytics',
+    barWindow: true, ms: [] },
+  { cat: 'Journals', color: 'teal', name: 'JEDM — Journal of Educational Data Mining',
+    barWindow: true, ms: [] },
+  { cat: 'Journals', color: 'teal', name: 'BJET (rolling + Special Sections)',
+    barWindow: true,
+    ms: [
+      ['2026-09-15', 'BJET Special Section proposals (next window est.)', true]
+    ]},
+  { cat: 'Journals', color: 'teal', name: 'CAE / CAEAI / CAEO / CAE:XR',
+    barWindow: true,
+    ms: [
+      ['2026-06-30', 'CAE Open · GenAI in Learning & Teaching SS']
+    ]},
+  { cat: 'Journals', color: 'teal', name: 'IEEE TLT (rolling)',
+    barWindow: true, ms: [] },
+  { cat: 'Journals', color: 'teal', name: 'B&IT — Behaviour & Information Technology',
+    barWindow: true, ms: [] },
+  { cat: 'Journals', color: 'teal', name: 'C&I — Cognition and Instruction',
+    barWindow: true, ms: [] },
+  { cat: 'Big-tent', color: 'blue', name: 'CSCW 2026 (Oct 2026 · Salt Lake City)',
+    starred: true,
+    bar: ['2025-05-14', '2026-10-14'],
+    ms: [
+      ['2025-05-14', 'Paper submission', false],
+      ['2025-09-16', 'Revision resubmit', false],
+      ['2026-01-13', 'Major revision due', false],
+      ['2026-04-10', 'Workshop proposals', false],
+      ['2026-05-15', 'Demo & poster deadline', false],
+      ['2026-10-10', 'CSCW 2026', false, 'conf']
+    ]},
+  { cat: 'Journals', color: 'teal', name: 'JCAL (rolling, Wiley)',
+    barWindow: true,
+    ms: [
+      ['2025-01-01', 'JCAL submissions open (rolling)', true]
+    ]},
+  { cat: 'Big-tent', color: 'blue', name: 'SIGCSE TS 2027 (Feb 2027 · Sacramento, CA)',
+    bar: ['2026-06-26', '2027-02-20'],
+    ms: [
+      ['2026-06-26', 'Paper abstracts due', false],
+      ['2026-07-03', 'Full papers due', false],
+      ['2026-10-05', 'Posters/Demos/SRC due', false],
+      ['2027-02-17', 'SIGCSE TS 2027', false, 'conf']
+    ]},
+];
+
+// ============================================================
+// MILESTONES LANE — collect the most important deadlines
+// ============================================================
+const KEY_PATTERNS = [
+  /paper submission/i, /full paper/i, /main paper/i,
+  /full submission/i, /^submission deadline/i,
+  /abstracts?\s*\(?\s*(mandatory)?\)?$/i,
+  /reviewer signup/i,
+  /^abstract$/i, /Special Section proposals/i,
+  /GenAI in Learning/i, /CAE Open/i,
+  /Conference/
+];
+const milestoneLane = [];
+ROWS.forEach(row => {
+  row.ms.forEach(m => {
+    const [date, label, projected, type] = m;
+    const isConf = type === 'conf';
+    const matches = isConf || KEY_PATTERNS.some(p => p.test(label));
+    if (matches && inWin(date)) {
+      milestoneLane.push({ date, label, projected: !!projected, type, venue: row.name, color: row.color });
+    }
+  });
+});
+
+// ============================================================
+// RENDER
+// ============================================================
+const gantt = document.getElementById('gantt');
+
+const corner = el('div', 'corner');
+gantt.appendChild(corner);
+
+const months = el('div', 'month-axis');
+for (let i = 0; i < 12; i++) {
+  const m = new Date(winStart.getFullYear(), winStart.getMonth() + i, 1);
+  const cell = el('div', 'month-cell');
+  cell.textContent = fmtMo(m) + (m.getMonth() === 0 || i === 0 ? ' ' + m.getFullYear() : '');
+  if (i === 0) cell.classList.add('current');
+  months.appendChild(cell);
+}
+gantt.appendChild(months);
+
+// MILESTONES LANE
+const mLabel = el('div', 'lane-label starred');
+mLabel.textContent = 'Milestones';
+mLabel.style.background = '#1a3d6b';
+mLabel.style.color = '#fff';
+mLabel.style.fontWeight = '700';
+mLabel.style.borderLeft = '4px solid #E63946';
+gantt.appendChild(mLabel);
+
+const mTrack = el('div', 'lane-track tall');
+milestoneLane.forEach(m => addMilestone(mTrack, m, true));
+addTodayLine(mTrack, true);
+gantt.appendChild(mTrack);
+
+// CATEGORY ROWS
+const cats = ['Core LA', 'Learning Sci', 'Big-tent', 'Journals'];
+const catColors = { 'Core LA': '#b85441', 'Learning Sci': '#297645', 'Big-tent': '#4695be', 'Journals': '#d8b03c' };
+const catBg     = { 'Core LA': '#7a2e25', 'Learning Sci': '#1a4a2c', 'Big-tent': '#2e6885', 'Journals': '#8a6d2a' };
+
+cats.forEach(cat => {
+  const catLabel = el('div', 'cat-header');
+  catLabel.textContent = cat;
+  catLabel.style.background = catBg[cat];
+  gantt.appendChild(catLabel);
+
+  const catTrack = el('div', 'cat-header-track');
+  catTrack.style.background = catBg[cat];
+  gantt.appendChild(catTrack);
+
+  const rows = ROWS.filter(r => r.cat === cat);
+  rows.forEach(row => {
+    const lbl = el('div', 'lane-label' + (row.starred ? ' starred' : ''));
+    lbl.textContent = row.name;
+    lbl.style.borderLeft = `4px solid ${catColors[cat]}`;
+    gantt.appendChild(lbl);
+
+    const track = el('div', 'lane-track');
+
+    let barStart, barEnd;
+    if (row.barWindow) {
+      barStart = winStart;
+      barEnd = winEnd;
+    } else if (row.bar) {
+      barStart = new Date(row.bar[0] + 'T00:00:00');
+      barEnd = new Date(row.bar[1] + 'T00:00:00');
+    }
+    if (barStart && barEnd && barEnd > winStart && barStart < winEnd) {
+      const sP = Math.max(0, pct(barStart < winStart ? winStart : barStart));
+      const eP = Math.min(100, pct(barEnd > winEnd ? winEnd : barEnd));
+      const bar = el('div', `bar ${row.color}`);
+      bar.style.left = sP + '%';
+      bar.style.width = (eP - sP) + '%';
+      if (row.barWindow) {
+        bar.textContent = '— rolling submission year-round —';
+        bar.style.height = '14px';
+      } else {
+        const days = Math.round((barEnd - barStart) / 86400000);
+        bar.textContent = `${row.name.split(' (')[0]}`;
+        bar.dataset.tip = `<span class="t-date">${fmtDate(barStart)} — ${fmtDate(barEnd)}</span>${row.name}\nWorking window: ${days} days`;
+      }
+      bindTip(bar);
+      track.appendChild(bar);
+    }
+
+    row.ms.forEach(m => addMilestone(track, {
+      date: m[0], label: m[1], projected: !!m[2], type: m[3], venue: row.name, color: row.color
+    }, false));
+
+    addTodayLine(track, false);
+    gantt.appendChild(track);
+  });
+});
+
+const upcoming = ROWS.flatMap(r => r.ms.filter(m => statusOf(m[0], m[2]) === 'upcoming' && inWin(m[0]))).length;
+const projectedC = ROWS.flatMap(r => r.ms.filter(m => statusOf(m[0], m[2]) === 'projected' && inWin(m[0]))).length;
+const confirmed = ROWS.flatMap(r => r.ms.filter(m => statusOf(m[0], m[2]) === 'confirmed' && inWin(m[0]))).length;
+document.getElementById('window-sub').innerHTML =
+  `Showing <b>${fmtMoY(winStart)} → ${fmtMoY(new Date(winEnd-86400000))}</b> · Today is <b>${fmtDate(TODAY)}</b> · ` +
+  `<span style="color:#E63946;font-weight:600">${upcoming} upcoming</span> &nbsp;·&nbsp; ` +
+  `<span style="color:#5A1B5C;font-weight:600">${confirmed} confirmed</span> &nbsp;·&nbsp; ` +
+  `<span style="color:#F77F00;font-weight:600">${projectedC} projected</span>`;
+
+function el(tag, cls) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  return e;
+}
+
+function addMilestone(track, m, big) {
+  if (!inWin(m.date)) return;
+  const status = statusOf(m.date, m.projected);
+  const isConf = m.type === 'conf';
+  let node;
+  if (isConf) {
+    node = el('div', 'flag' + (big ? ' big' : ''));
+    node.textContent = '\u{1F4E2}';
+    node.style.left = pct(m.date) + '%';
+  } else {
+    node = el('div', `diamond ${status}` + (big ? ' big' : ''));
+    node.style.left = pct(m.date) + '%';
+  }
+  node.dataset.tip = milestoneTip(m);
+  bindTip(node);
+  track.appendChild(node);
+}
+
+function milestoneTip(m) {
+  const days = daysFromToday(m.date);
+  const inText = days === 0 ? 'today' :
+                 days < 0 ? `${-days} day${-days===1?'':'s'} ago` :
+                 `in ${days} day${days===1?'':'s'}`;
+  const projTxt = m.projected ? ' <i style="color:#F77F00">(projected)</i>' : '';
+  return `<span class="t-date">${fmtDate(m.date)} · ${inText}${projTxt}</span>` +
+         `${m.label}` +
+         (m.venue ? `<span class="t-venue">${m.venue}</span>` : '');
+}
+
+function addTodayLine(track, withBanner) {
+  if (!inWin(TODAY)) return;
+  const line = el('div', 'today-line');
+  line.style.left = pct(TODAY) + '%';
+  track.appendChild(line);
+  if (withBanner) {
+    const banner = el('div', 'today-banner');
+    banner.textContent = 'TODAY';
+    banner.style.left = pct(TODAY) + '%';
+    track.appendChild(banner);
+  }
+}
+
+const tip = document.getElementById('tooltip');
+function bindTip(node) {
+  node.addEventListener('mouseenter', e => {
+    tip.innerHTML = node.dataset.tip;
+    tip.classList.add('show');
+  });
+  node.addEventListener('mousemove', e => {
+    let x = e.clientX + 14;
+    let y = e.clientY + 14;
+    if (x + 320 > window.innerWidth) x = e.clientX - 330;
+    if (y + 100 > window.innerHeight) y = e.clientY - 100;
+    tip.style.left = x + 'px';
+    tip.style.top = y + 'px';
+  });
+  node.addEventListener('mouseleave', () => tip.classList.remove('show'));
+}
+</script>
+</body>
+</html>

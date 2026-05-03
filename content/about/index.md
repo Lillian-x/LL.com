@@ -38,5 +38,5 @@ Revolutionizing STEM education through:
 ---
 
 ## Let's Connect!
-* {{< icon "envelope" >}}[Send me an email](mailto:wenxuan@alumni.harvard.edu)
+* {{< icon "envelope" >}}[Send me an email](mailto:lillian.liu@uci.edu)
 * {{< icon "linkedin" >}}[Connect on LinkedIn](https://www.linkedin.com/in/wenxuanliu/)

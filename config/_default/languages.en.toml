@@ -15,5 +15,5 @@ description = "WL website"
 [author]
 name = " "
 image = "lwx-clean.jpeg"
-links = [ { email = "mailto:wenxuan@alumni.harvard.edu" }, { github = "https://github.com/Lillian-x" }, { linkedin = "https://www.linkedin.com/in/wenxuanliu/" } ]
+links = [ { email = "mailto:lillian.liu@uci.edu" }, { github = "https://github.com/Lillian-x" }, { linkedin = "https://www.linkedin.com/in/wenxuanliu/" } ]
 headline = ""

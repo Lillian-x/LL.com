@@ -1,0 +1,50 @@
+# ============================================================
+# Hugo build artifacts — DO NOT commit
+# ============================================================
+# GitHub Actions rebuilds public/ on every push, so committing
+# it just bloats the repo (currently ~399 MB!) and causes huge
+# noisy diffs on every local `hugo` run.
+public/
+resources/_gen/
+.hugo_build.lock
+
+# ============================================================
+# Hugo theme as git submodule
+# ============================================================
+# themes/blowfish is pulled via .gitmodules — ignore its working
+# tree contents (the submodule pointer in .gitmodules is what
+# actually gets committed).
+# (No ignore rule needed; submodule semantics handle this.)
+
+# ============================================================
+# macOS / OS junk
+# ============================================================
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================================
+# Editors / IDE
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Node / npm (Hugo asset pipeline can pull these)
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================================
+# Local secrets / env
+# ============================================================
+.env
+.env.local
+.env.*.local
