@@ -12,6 +12,11 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
+# Partial render timeout — Blowfish's head.html does featured-image
+# lookups that are slow on cold-cache CI runners. Default 30s, bumped
+# to 90s so the GitHub Pages build doesn't fail on first build.
+timeout = "90s"
+
 buildDrafts = false
 buildFuture = false
 
